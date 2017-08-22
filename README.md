@@ -3,8 +3,10 @@
     mkdir external
     cd external
     ln -sf /path/to/the/root/of/datasets raw_data
+    ln -sf /path/to/the/root/of/caffe-master caffe
     ln -sf /path/to/your/experiments/directory exp
     cd ..
+    
     ./scripts/format_rawdata.sh
     ./scripts/make_datalists.sh
     ./scripts/merge_datalists.sh
