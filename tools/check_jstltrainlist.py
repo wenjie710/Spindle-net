@@ -1,7 +1,11 @@
 import numpy as np
 from argparse import ArgumentParser
 from collections import defaultdict
+import os.path as osp
 
+root = osp.join(osp.dirname(osp.abspath(__file__)), '..')
+if root not in sys.path:
+    sys.path.insert(0, root)
 from utils import *
 
 
