@@ -1,5 +1,6 @@
 # SpindleNet
 
+    git clone --recursive http 
     mkdir external
     cd external
     ln -sf /path/to/the/root/of/datasets raw_data
